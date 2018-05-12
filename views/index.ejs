@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title> Zung's Portfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+      <%- include partial/header.ejs %>
+
+  <main>
+
+  <div class="textholder">
+    <h1>ZUNG DINH<h1>
+    <h2>web & software development</h2>
+  </div>
+
+  <div class="arrowholder">
+    <img src ="/image/arrow.svg" id="arrow">
+  </div>
+  
+  
+  <div class="col-lg-12 col-md-12 col-sm-12 parallax">
+  </div>
+  
+
+<h3 id="sub">SOME OF MY SHIT</h3>
+
+  <div class ="row">
+    <div class="abox">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 boxes">
+        <a href="http://zungdinh.com/VSTDA/index.html" target="blank"> <img src="http://zungdinh.com/images/vstda.jpg" width="100%"></a>
+            <h4>VSTDA</h4>
+        </div>
+      </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 boxes">
+          <a href="http://zungdinh.com/Astro%20Calculator/index.html" target="blank"> <img src="http://zungdinh.com/images/planet2.jpg" width="100%"></a>
+              <h4>ASTRO CALCULATOR</h4>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 boxes">
+          <a href="http://zungdinh.com/MAUDE%20&%20SONS/index.html" target="blank"> <img src="http://zungdinh.com/images/m6.jpg" width="100%"></a>
+              <h4>MAUDE & SONS</h4>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+  <div class ="row">
+  <div class="abox">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 boxes">
+      <a href="http://zungdinh.com/AsianaAgency/index.html" target="blank"> <img src="http://zungdinh.com/images/airplane2.jpg" width="100%"></a>
+          <h4>ASIANA AGENCY</h4>
+      </div>
+    </div>
+
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 boxes">
+         <a href="http://zungdinh.com/HENSTRIDGE%20MCMILLIAN/index.html" target="blank"> <img src="http://zungdinh.com/images/design2.jpg" width="100%"></a>
+            <h4>HENSTRIDGE MCMILLIAN</h4>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 boxes">
+        <a href="http://zungdinh.com/HENSTRIDGE%20MCMILLIAN/index.html" target="blank"> <img src="http://zungdinh.com/images/bluehero.jpeg" width="100%"></a>
+            <h4>PALERMO</h4>
+        </div>
+      </div>
+  </div>
+</div>
+
+  
+  <div class="col-lg-12 col-md-12 col-sm-12 parallax">
+  </div>
+
+  </main>
+
+<footer method ="POST">
+
+      <form action="/thanks" method="POST">
+
+      <h3 id="sub">CONTACT ME</h3>
+
+
+    <label for="fname"  >FULL NAME</label>
+    <input type="text" name="Name" class="inputsize" autofocus required />
+
+    <label for="comments"> YOUR MESSAGE </label>
+    <textarea rows="6" cols="30" name="message" class="inputsize"></textarea>
+
+    <button type="submit" name="submit" id="submit" value="SUBMIT">SUBMIT</button>
+
+      </form>
+
+
+
+      <div id="contact"></div>
+
+      
+
+</footer>
+  </body>
+</html>
